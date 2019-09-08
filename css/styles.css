@@ -1,0 +1,14 @@
+body{
+	background-color: #def;
+}
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	transition: background-color 3s;
+}
+.cool.red{
+	visibility: visible;
+	background-color: #f01;
+}
